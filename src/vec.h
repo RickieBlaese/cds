@@ -30,7 +30,6 @@ void *vec_get(const vec_t *vec, size_t index);
 
 void vec_get_copy(const vec_t *vec, size_t index, void *dest);
 
-/* fails silently if out of bounds */
 void vec_set(vec_t *vec, size_t index, const void *value);
 
 void vec_push(vec_t *vec, const void *value);
